@@ -1,0 +1,276 @@
+
+html {
+    background-color: white;
+}
+
+p {
+    color: white;
+    font-family: Viga, sans-serif;
+    font-size: 75px;
+}
+
+i {
+    font-size: 170px;
+}
+
+h1.h1{
+    color: #353535;
+    font-family: Viga, sans-serif;
+    background-color: white;
+    font-size: 110px;
+    text-align: center;
+}
+
+h2.h2 {
+    color: #353535;
+    font-family: Viga, sans-serif;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+i.choice {
+    font-size: 150px;
+    color: #353535;
+    transition: 0.2s;
+}
+
+.score1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: Viga, sans-serif;
+    
+}
+
+.score2 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: Viga, sans-serif;
+    
+}
+
+
+.circle {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: #272727;
+    border: 13px solid #353535;
+    margin-top: 100px;
+    
+}
+
+.scoreArea{
+    margin-top: 150px;
+}
+
+.scoreBoard {
+    width: 320px;
+    height: 130px;
+
+    background: #5B5B5B;
+    border: 13px solid #353535;
+    border-radius: 15px;
+    /* margin: 0 -500px 0 -500px; */
+}
+
+.choicesArea {
+    width: 70%;
+    margin: 20px auto;
+    color: white;
+}
+
+i.choice:hover {
+    font-size: 170px;
+    color: #353535;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+        background-color: white;
+        margin: 0 auto;
+    }
+    
+    p {
+        color: white;
+        font-family: Viga, sans-serif;
+        font-size: 50px;
+    }
+    
+    i {
+        font-size: 120px;
+    }
+    
+    h1.h1{
+        color: #353535;
+        font-family: Viga, sans-serif;
+        background-color: white;
+        font-size: 110px;
+        text-align: center;
+    }
+    
+    h2.h2 {
+        color: #353535;
+        font-family: Viga, sans-serif;
+        background-color: white;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    i.choice {
+        font-size: 150px;
+        color: #353535;
+        transition: 0.2s;
+    }
+    
+    .score1 {
+        color: white;
+        font-size: 80px;
+        text-align: center;
+        font-family: Viga, sans-serif;
+        
+    }
+    
+    .score2 {
+        color: white;
+        font-size: 80px;
+        text-align: center;
+        font-family: Viga, sans-serif;
+        
+    }
+    
+    
+    .circle {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background: #272727;
+        border: 13px solid #353535;
+        margin-top: 100px;
+        
+    }
+    
+    .scoreArea{
+        margin-top: 150px;
+    }
+    
+    .scoreBoard {
+        width: 320px;
+        height: 130px;
+    
+        background: #5B5B5B;
+        border: 13px solid #353535;
+        border-radius: 15px;
+        /* margin: 0 -500px 0 -500px; */
+    }
+    
+    .choicesArea {
+        width: 70%;
+        margin: 20px auto;
+        color: white;
+    }
+    
+    i.choice:hover {
+        font-size: 170px;
+        color: #353535;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        background-color: white;
+        margin: 0 auto;
+    }
+    
+    p {
+        color: white;
+        font-family: Viga, sans-serif;
+        font-size: 20px;
+    }
+    
+    i {
+        font-size: 50px;
+    }
+    
+    h1.h1{
+        color: #353535;
+        font-family: Viga, sans-serif;
+        background-color: white;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    h2.h2 {
+        color: #353535;
+        font-family: Viga, sans-serif;
+        background-color: white;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    i.choice {
+        font-size: 50px;
+        color: #353535;
+        transition: 0.2s;
+    }
+    
+    .score1 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: Viga, sans-serif;
+        
+    }
+    
+    .score2 {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-family: Viga, sans-serif;
+        
+    }
+    
+    
+    .circle {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        background: #272727;
+        border: 13px solid #353535;
+        margin-top: 100px;
+        
+    }
+    
+    .scoreArea{
+        margin-top: 150px;
+    }
+    
+    .scoreBoard {
+        width: 170px;
+        height: 100px;
+    
+        background: #5B5B5B;
+        border: 13px solid #353535;
+        border-radius: 15px;
+        /* margin: 0 -500px 0 -500px; */
+    }
+    
+    .choicesArea {
+        width: 70%;
+        margin: 20px auto;
+        color: white;
+    }
+    
+    i.choice:hover {
+        font-size: 70px;
+        color: #353535;
+        cursor: pointer;
+    }
+}

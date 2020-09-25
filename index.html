@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aecb31907f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-transparent">
+    <div class="container bg-transparent">
+        <h1 class="h1">ROCK, PAPER, SCISSORS!</h1>
+
+        <div class="scoreArea d-flex flex-row justify-content-around">
+            <div class="scoreBoard">
+                <p class="score1">0</p>
+            </div>
+            <div class="scoreBoard">
+                <p class="score2">0</p>
+            </div>
+        </div>
+
+        <div class="playArea d-flex flex-row justify-content-between">
+            <div id="circle1" class="circle d-flex align-items-center justify-content-center">
+                <p class="pChoice">player</p>
+            </div>
+            <div id="circle2" class="circle d-flex align-items-center justify-content-center">
+                <p class="cChoice">computer</p>
+            </div>
+        </div>
+
+        <h2 class="h2">PICK ONE</h2>
+
+        <div class="choicesArea d-flex justify-content-between">
+            <i id="rock" class="choice fas fa-hand-rock"></i>
+            <i id="paper" class="choice fas fa-hand-paper"></i>
+            <i id="scissors" class="choice fas fa-hand-scissors"></i>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

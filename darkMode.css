@@ -1,0 +1,87 @@
+/* *****************************
+        Not working yet
+***************************** */
+
+
+html {
+    background-color: #353535;
+}
+
+p {
+    color: white;
+    font-family: Viga, sans-serif;
+    font-size: 75px;
+}
+
+i {
+    font-size: 150px;
+    color: white;
+}
+
+h1.h1{
+    color: white;
+    font-family: Viga, sans-serif;
+    background-color: #353535;
+    font-size: 110px;
+    text-align: center;
+}
+
+h2.h2 {
+    color: white;
+    font-family: Viga, sans-serif;
+    background-color: #353535;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+i.choice {
+    font-size: 150px;
+    color: white;
+}
+
+.score1 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: Viga, sans-serif;
+    
+}
+
+.score2 {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    font-family: Viga, sans-serif;
+    
+}
+
+
+.circle {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: #272727;
+    border: 13px solid 353535;
+    margin-top: 100px;
+    
+}
+
+.scoreArea{
+    margin-top: 150px;
+}
+
+.scoreBoard {
+    width: 320px;
+    height: 130px;
+
+    background: #272727;
+    border: 13px solid white;
+    border-radius: 15px;
+    /* margin: 0 -500px 0 -500px; */
+}
+
+.choicesArea {
+    width: 70%;
+    margin: 20px auto;
+}
